@@ -60,6 +60,3 @@ with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
         
         # Write the new, normalised line to the output file
         fout.write('\t'.join(new_values) + '\n')
-
-# output file gives only integer and no decimals because CAFE can't use decimals in the input file. For example, 28/3 becomes 9 instead of 9.something.
-# CAFE5 uses probabilistic models (like birth-death processes) that fundamentally operate on discrete, whole numbers of gene families.
