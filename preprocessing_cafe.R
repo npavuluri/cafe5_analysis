@@ -1,5 +1,5 @@
 #!/usr/bin/R Rscript
-# adapted from biostars dariobar
+# code adapted from a Biostars answer by dariobar (https://www.biostars.org/p/9553290/)
 
 # make sure the species tree is ultrametric
 library(ape) 
