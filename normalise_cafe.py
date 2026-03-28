@@ -16,7 +16,7 @@ ploidy_factors = {
 }
 
 input_file = "og_gene_counts.tsv"
-output_file = "ploidy_normalized_og_gene_counts.tsv"
+output_file = "ploidy_normalised_og_gene_counts.tsv"
 
 # normalise the gene counts
 with open(input_file, 'r') as fin, open(output_file, 'w') as fout:
