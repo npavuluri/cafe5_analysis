@@ -1,0 +1,17 @@
+#Taxon_ID	Increase	Decrease
+Avena_sativa<6>	809	1253
+Arabidopsis_thaliana<1>	2739	388
+<16>	582	405
+<11>	2103	239
+<12>	818	427
+Triticum_turgidum<9>	464	1877
+Zea_mays<2>	3643	817
+Sorghum_bicolor<3>	891	730
+<13>	59	77
+Hordeum_vulgare<7>	637	1084
+<17>	468	275
+Triticum_aestivum<8>	536	703
+Oryza_sativa<4>	995	2590
+<14>	352	349
+Brachypodium_distachyon<5>	1029	751
+<15>	352	266
