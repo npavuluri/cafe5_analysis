@@ -1,7 +1,7 @@
 # cafe5_analysis
 
 ## Overview
-This repository contains the results of a CAFE5 analysis to identify the significant expansion and contraction in drought gene familes in cereal crops.
+This repository contains the results of a CAFE5 analysis to identify the significant expansion and contraction in drought gene familes across major cereal crops.
 
 ## Input Data
 - Species tree: `SpeciesTree_rooted_ultra.txt` (9 species, ultrametric)
