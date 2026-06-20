@@ -5,7 +5,7 @@ This repository contains the results of a CAFE5 analysis to identify the signifi
 
 ## Input Data
 - Species tree: `SpeciesTree_rooted_ultra.txt` (9 species, ultrametric)
-- Gene families: OrthoFinder v3.1 results (21,912 families)
+- Gene families: OrthoFinder v3.1 results (Orthogroups.tsv; 21,912 families)
 - Filtering: Removed families present in <2 species, removed gene families with lots of genes in a one or more species (n_max < 100).
 
 ## Analysis Commands
