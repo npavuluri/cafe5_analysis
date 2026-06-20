@@ -1,16 +1,16 @@
 # cafe5_analysis
 
 ## Overview
-This repository contains the results of a CAFE5 analysis to identify the significant expansion and contraction in drought gene familes.
+This repository contains the results of a CAFE5 analysis to identify the significant expansion and contraction in drought gene familes in cereal crops.
 
 ## Input Data
 - Species tree: `SpeciesTree_rooted_ultra.txt` (9 species, ultrametric)
-- Gene families: OrthoFinder v3.1 results (21,913 families)
-- Filtering: Removed families present in <2 species, removed gene families lots of genes in a one or more species (n_max < 100).
+- Gene families: OrthoFinder v3.1 results (21,912 families)
+- Filtering: Removed families present in <2 species, removed gene families with lots of genes in a one or more species (n_max < 100).
 
 ## Analysis Commands
 ```bash
-cafe5 -i cafe5 -i ./ploidy_normalised_og_gene_counts.tsv -t ./SpeciesTree_rooted_ultra.txt -o results/ -p -k 3 -eBase_error_model.txt --cores 30 ## Estimate a lambda along with a gamma distribution using three rate categories.
+cafe5 -i ./ploidy_normalised_og_gene_counts.tsv -t ./SpeciesTree_rooted_ultra.txt -o results/ -p -k 3 -eBase_error_model.txt --cores 30 ## Estimate a lambda along with a gamma distribution using three rate categories.
 ```
 
 ## Output files:
